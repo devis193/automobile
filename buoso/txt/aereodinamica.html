@@ -1,0 +1,117 @@
+
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>telaio.html</title>
+  <style>
+    /* Stili base per il menu */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      float: left;
+      position: relative;
+    }
+
+    nav ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      background-color: #111;
+    }
+
+    /* Menu a tendina */
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      background-color: #444;
+      min-width: 180px;
+      z-index: 1;
+    }
+
+    nav ul li ul li {
+      float: none;
+    }
+
+    nav ul li ul li a {
+      padding: 12px 16px;
+    }
+
+    nav ul li ul li a:hover {
+      background-color: #555;
+    }
+
+    /* Checkbox per il menu a tendina */
+    nav ul li input[type="checkbox"] {
+      display: none; /* Nasconde la checkbox */
+    }
+
+    nav ul li label {
+      display: block;
+      color: white;
+      padding: 14px 20px;
+      cursor: pointer;
+    }
+
+    nav ul li input[type="checkbox"]:checked + label + ul {
+      display: block; /* Mostra il menu se la checkbox è selezionata */
+    }
+
+    /* Titolo principale */
+    header {
+      background-color: #222;
+      color: white;
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    /* Contenuto */
+    .content {
+      padding: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aereodinamica</h1>
+  </header>
+
+  <nav>
+    <ul>
+    <li><a href="home.html">Home
+<li><a href="bugatti.html">Bugatti Chiron Super Sport▾</a></li>
+<li><a href="motore.html">motore▾</a></li>
+          <li><a href="telaio.html">telaio▾</a></li>
+</a>
+    </li><br><br><br>            
+         </nav> <br> <div style="border: 0px solid white; margin: 20px;">
+  Questo testo è staccato dal bordo grazie al margin.
+In questa autovettura, l'aerodinamica ed il sistema di raffreddamento del motore sono legati intrinsecamente tra di loro. I radiatori necessitano di essere lambiti da un adeguato flusso d'aria per smaltire il calore prodotto dal propulsore; tuttavia quest'aria in movimento, che fluisce attraverso i radiatori ed attorno ad essi, è causa di un aumento della resistenza all'avanzamento dell'auto, un effetto di trascinamento noto come cooling drag<br></div>
+
+
+<img src="e.jpg" width="500" height="315">
